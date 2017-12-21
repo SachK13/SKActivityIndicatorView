@@ -2,6 +2,8 @@
 
 `SKActivityIndicatorView` is a lightweight and easy-to-use ActivityIndicator for your iOS app written in swift.
 
+![SKActivityIndicatorView](ActivityIndicator.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
