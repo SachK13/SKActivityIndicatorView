@@ -104,5 +104,5 @@ SKActivityIndicator.spinnerStyle(.spinningHalfCircles)
 
 ## License
 
-SKActivityIndicatorView is released under the MIT license. [See LICENSE](https://github.com/SachK13/SKActivityIndicatorView/master/LICENSE) for details.
+SKActivityIndicatorView is released under the MIT license. [See LICENSE](https://github.com/SachK13/SKActivityIndicatorView/blob/master/LICENSE) for details.
 
