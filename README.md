@@ -52,7 +52,7 @@ Include SKActivityIndicatorView wherever you need it with `import SKActivityIndi
 
 ## Usage
 
-(see sample Xcode project in `/SKActivityIndicatorView/Example`)
+(see sample Xcode project in `/Example`)
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 Import the module.
