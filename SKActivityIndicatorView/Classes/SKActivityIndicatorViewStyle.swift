@@ -2,7 +2,7 @@
 //  SKActivityIndicatorViewStyle.swift
 //  SKActivityIndicatorView
 //
-//  Created by Sachin on 21/12/17.
+//  Created by Sachin on 22/12/17.
 //
 
 import Foundation

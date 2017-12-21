@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0306A7D41FEC335900C9134C /* SKActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306A7D21FEC335800C9134C /* SKActivityIndicatorView.swift */; };
-		0306A7D51FEC335900C9134C /* SKActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306A7D31FEC335900C9134C /* SKActivityIndicatorViewStyle.swift */; };
+		0306A7DB1FEC355F00C9134C /* SKActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306A7DA1FEC355F00C9134C /* SKActivityIndicatorView.swift */; };
+		0306A7DD1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306A7DC1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift */; };
 		455BFDDC028541E7940EE6C4B529DF5E /* Pods-SKActivityIndicatorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D4ED28CFFB70F48570A2702DB94EC5 /* Pods-SKActivityIndicatorView_Example-dummy.m */; };
 		48003A4B5D7006EBA054EA1451522DE3 /* SKActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A581056832F2966140954260A4126 /* SKActivityIndicatorView-dummy.m */; };
 		606844539DF29A3D11AFB1716242324C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -31,8 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0306A7D21FEC335800C9134C /* SKActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKActivityIndicatorView.swift; sourceTree = "<group>"; };
-		0306A7D31FEC335900C9134C /* SKActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
+		0306A7DA1FEC355F00C9134C /* SKActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SKActivityIndicatorView.swift; path = SKActivityIndicatorView/Classes/SKActivityIndicatorView.swift; sourceTree = "<group>"; };
+		0306A7DC1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SKActivityIndicatorViewStyle.swift; path = SKActivityIndicatorView/Classes/SKActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
 		039ADF696504640FDEA17BFF4D31CD8B /* Pods_SKActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKActivityIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C7C8487A7EEB15A10220B4089A2533 /* Pods-SKActivityIndicatorView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKActivityIndicatorView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0E50DD1DA14949E720C1B1053E26E347 /* Pods-SKActivityIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKActivityIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -201,9 +201,9 @@
 		F27C66D4A3A72A8D57B8699998BDF1F4 /* SKActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				0306A7D21FEC335800C9134C /* SKActivityIndicatorView.swift */,
-				0306A7D31FEC335900C9134C /* SKActivityIndicatorViewStyle.swift */,
 				250CF547808DB821591E414C01AD53A5 /* Support Files */,
+				0306A7DA1FEC355F00C9134C /* SKActivityIndicatorView.swift */,
+				0306A7DC1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift */,
 			);
 			name = SKActivityIndicatorView;
 			path = ../..;
@@ -338,8 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				48003A4B5D7006EBA054EA1451522DE3 /* SKActivityIndicatorView-dummy.m in Sources */,
-				0306A7D41FEC335900C9134C /* SKActivityIndicatorView.swift in Sources */,
-				0306A7D51FEC335900C9134C /* SKActivityIndicatorViewStyle.swift in Sources */,
+				0306A7DB1FEC355F00C9134C /* SKActivityIndicatorView.swift in Sources */,
+				0306A7DD1FEC357100C9134C /* SKActivityIndicatorViewStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
