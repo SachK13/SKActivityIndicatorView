@@ -32,7 +32,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod "SKActivityIndicatorView" ~> 0.1.0
+pod 'SKActivityIndicatorView', '~> 0.1.0'
 end
 ```
 
