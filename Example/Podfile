@@ -3,9 +3,4 @@ use_frameworks!
 target 'SKActivityIndicatorView_Example' do
   pod 'SKActivityIndicatorView', :path => '../'
 
-  target 'SKActivityIndicatorView_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
