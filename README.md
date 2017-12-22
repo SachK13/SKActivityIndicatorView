@@ -67,6 +67,12 @@ SKActivityIndicator.show()
 ```
 
 
+Display ActivityIndicatorView with status message:
+```swift
+SKActivityIndicator.show("Loading...")
+```
+
+
 Display ActivityIndicatorView with status message and user interaction status:
 ```swift
 SKActivityIndicator.show("Loading...", userInteractionStatus: true)
