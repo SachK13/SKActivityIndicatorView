@@ -294,5 +294,9 @@ public class SKActivityIndicator: NSObject {
     public static func spinnerStyle(_ spinnerStyle: ActivityIndicatorStyle) {
         self.shared.activityIndicatorStyle = spinnerStyle
     }
+    
+    public static func setBackgroundColor(_ color: UIColor) {
+        self.shared.backgroundViewColor = color
+    }
 }
 
