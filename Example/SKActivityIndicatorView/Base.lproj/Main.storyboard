@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fFj-DE-4Bi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fFj-DE-4Bi">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="AvenirNext.ttc">
-            <string>AvenirNext-Bold</string>
-            <string>AvenirNext-Medium</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tnT-nX-zno">
@@ -121,20 +115,20 @@
                             <constraint firstItem="xFW-jA-4Bw" firstAttribute="top" secondItem="FRw-uj-sdy" secondAttribute="bottom" constant="20" id="IA7-Mg-6fu"/>
                             <constraint firstItem="T6S-MB-Af7" firstAttribute="leading" secondItem="xFW-jA-4Bw" secondAttribute="trailing" constant="8" id="Jkg-3C-s7p"/>
                             <constraint firstItem="dBz-En-1sZ" firstAttribute="trailing" secondItem="G5R-Gf-6NG" secondAttribute="trailing" constant="16" id="NZE-Ut-Uua"/>
-                            <constraint firstItem="g7w-0z-mDm" firstAttribute="trailing" secondItem="dBz-En-1sZ" secondAttribute="trailing" id="Sj6-Hu-osU"/>
                             <constraint firstItem="7po-UH-t7b" firstAttribute="leading" secondItem="dBz-En-1sZ" secondAttribute="leading" constant="8" id="V1S-Pc-cNT"/>
                             <constraint firstItem="dBz-En-1sZ" firstAttribute="trailing" secondItem="L8t-zK-oYP" secondAttribute="trailing" constant="8" id="V3u-ZJ-RhH"/>
                             <constraint firstItem="KRb-Dl-Noo" firstAttribute="top" secondItem="xFW-jA-4Bw" secondAttribute="bottom" constant="16" id="X9w-hu-U5x"/>
-                            <constraint firstItem="g7w-0z-mDm" firstAttribute="leading" secondItem="dBz-En-1sZ" secondAttribute="leading" id="aID-sp-dIY"/>
+                            <constraint firstItem="g7w-0z-mDm" firstAttribute="trailing" secondItem="dBz-En-1sZ" secondAttribute="trailing" id="YKy-DL-Q8P"/>
                             <constraint firstItem="G5R-Gf-6NG" firstAttribute="leading" secondItem="dBz-En-1sZ" secondAttribute="leading" constant="16" id="aOR-8c-Avk"/>
-                            <constraint firstItem="g7w-0z-mDm" firstAttribute="top" secondItem="dBz-En-1sZ" secondAttribute="top" constant="-20" id="chY-lB-Uzo"/>
                             <constraint firstItem="T6S-MB-Af7" firstAttribute="width" secondItem="xFW-jA-4Bw" secondAttribute="width" id="dQ8-sl-ZIR"/>
+                            <constraint firstItem="g7w-0z-mDm" firstAttribute="top" secondItem="Kt1-5Q-Mma" secondAttribute="top" id="fFT-Ye-GRh"/>
                             <constraint firstItem="dBz-En-1sZ" firstAttribute="bottom" secondItem="7po-UH-t7b" secondAttribute="bottom" constant="20" id="ft9-Qi-Rnc"/>
                             <constraint firstItem="L8t-zK-oYP" firstAttribute="leading" secondItem="KRb-Dl-Noo" secondAttribute="trailing" constant="8" id="jQq-ie-R7u"/>
+                            <constraint firstItem="g7w-0z-mDm" firstAttribute="bottom" secondItem="Kt1-5Q-Mma" secondAttribute="bottom" id="n9D-3r-ZWW"/>
                             <constraint firstItem="dBz-En-1sZ" firstAttribute="trailing" secondItem="T6S-MB-Af7" secondAttribute="trailing" constant="8" id="q7W-9g-VdG"/>
-                            <constraint firstItem="g7w-0z-mDm" firstAttribute="bottom" secondItem="dBz-En-1sZ" secondAttribute="bottom" id="qqy-ga-Tg2"/>
                             <constraint firstItem="xFW-jA-4Bw" firstAttribute="leading" secondItem="dBz-En-1sZ" secondAttribute="leading" constant="8" id="qtQ-am-6sk"/>
                             <constraint firstItem="dBz-En-1sZ" firstAttribute="trailing" secondItem="7po-UH-t7b" secondAttribute="trailing" constant="8" id="r0T-qZ-OtI"/>
+                            <constraint firstItem="g7w-0z-mDm" firstAttribute="leading" secondItem="dBz-En-1sZ" secondAttribute="leading" id="rZL-qj-6Qs"/>
                             <constraint firstItem="dBz-En-1sZ" firstAttribute="trailing" secondItem="FRw-uj-sdy" secondAttribute="trailing" constant="8" id="sFh-t2-Pjv"/>
                             <constraint firstItem="7po-UH-t7b" firstAttribute="top" secondItem="L8t-zK-oYP" secondAttribute="bottom" constant="16" id="srI-Cn-gSe"/>
                             <constraint firstItem="KRb-Dl-Noo" firstAttribute="leading" secondItem="dBz-En-1sZ" secondAttribute="leading" constant="8" id="y6y-gf-4kn"/>
@@ -152,6 +146,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Background" width="360" height="640"/>
+        <image name="Background" width="720" height="1280"/>
     </resources>
 </document>

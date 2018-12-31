@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var statusMessage = ""
     
     
-    
+    // MARK: - View Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         let myFont = UIFont(name: "AvenirNext-DemiBold", size: 18)
         SKActivityIndicator.statusLabelFont(myFont!)
     }
+    
     
     // MARK: - SKActivityIndicator Styles
     @IBAction func showActivityIndicatorStyle1ButtonTapped(_ sender: Any) {
@@ -67,6 +68,7 @@ class ViewController: UIViewController {
 }
 
 
+// MARK: - TextField Delegate Methods
 extension ViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
