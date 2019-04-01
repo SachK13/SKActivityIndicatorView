@@ -56,7 +56,7 @@ class SKActivityIndicatorStyle: NSObject {
         let duration: CFTimeInterval = 0.5
         let beginTime = CACurrentMediaTime()
         let beginTimes: [CFTimeInterval] = [0.12, 0.24, 0.36, 0.48, 0.6, 0.72, 0.84, 0.96, 0.108, 0.120]
-        let timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        let timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
 
         // Animation
         let animation = CAKeyframeAnimation(keyPath: "opacity")
@@ -153,7 +153,7 @@ class SKActivityIndicatorStyle: NSObject {
         let animation = CAAnimationGroup()
 
         animation.animations = [scaleAnimation, opacityAnimaton]
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animation.duration = duration
         animation.repeatCount = HUGE
         animation.isRemovedOnCompletion = false
@@ -278,7 +278,7 @@ class SKActivityIndicatorStyle: NSObject {
         let bigCircleSize: CGFloat = size.width
         let smallCircleSize: CGFloat = size.width / 2
         let longDuration: CFTimeInterval = 0.8
-        let timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        let timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
 
         outerCircleOf(duration: longDuration,
                       timingFunction: timingFunction,
