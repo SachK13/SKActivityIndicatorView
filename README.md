@@ -18,8 +18,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 - iOS 9.0+
-- Xcode 9.1+
-- Swift 4.0+
+- Xcode 10.2+
+- Swift 5.0+
 
 
 ## Installation
@@ -32,7 +32,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'SKActivityIndicatorView', '~> 0.1.0'
+pod 'SKActivityIndicatorView', '~> 1.0.0'
 end
 ```
 
@@ -42,6 +42,13 @@ Then, run the following command:
 $ pod install
 ```
 
+### Carthage
+
+Carthage is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate SKActivityIndicatorView into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```
+github "SachK13/SKActivityIndicatorView" ~> 1.0.0
+```
 
 ### Manual
 You can directly add the `SKActivityIndicatorView.swift` and `SKActivityIndicatorViewStyle.swift` source files into your Xcode project.
