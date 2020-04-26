@@ -17,8 +17,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- iOS 9.0+
-- Xcode 10.2+
+- iOS 13.0+
+- Xcode 11+
 - Swift 5.0+
 
 
@@ -28,7 +28,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 To integrate SKActivityIndicatorView into your Xcode project using CocoaPods, specify it in your `Podfile`:
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
+platform :ios, '13.0'
 use_frameworks!
 
 target '<Your Target Name>' do
