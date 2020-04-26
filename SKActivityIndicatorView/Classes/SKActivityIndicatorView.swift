@@ -297,4 +297,18 @@ public class SKActivityIndicator: NSObject {
     public static func spinnerStyle(_ spinnerStyle: ActivityIndicatorStyle) {
         shared.activityIndicatorStyle = spinnerStyle
     }
+    
+    
+    // MARK: - Helper Methods
+    @available(iOS 13.0, *)
+    fileprivate func getKeyWindow() -> UIWindow? {
+        let window = UIApplication.shared.connectedScenes
+            .filter({$0.activationState == .foregroundActive})
+            .map({$0 as? UIWindowScene})
+            .compactMap({$0})
+            .first?.windows
+            .filter({$0.isKeyWindow}).first
+        
+        return window
+    }
 }
