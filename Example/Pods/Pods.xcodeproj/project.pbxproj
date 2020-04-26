@@ -29,23 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09B659CEDF79BB7CC3B7A1924EA07E5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2025E4A11B95E3B78A897467CA40C2AB /* Pods_SKActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SKActivityIndicatorView_Example.framework; path = "Pods-SKActivityIndicatorView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B659CEDF79BB7CC3B7A1924EA07E5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2025E4A11B95E3B78A897467CA40C2AB /* Pods_SKActivityIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKActivityIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2683BDF2922ABAE6408A96A8D33EC3F5 /* SKActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKActivityIndicatorView.swift; path = SKActivityIndicatorView/Classes/SKActivityIndicatorView.swift; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4A8EEA0A0D184B7400E158C5893B97B4 /* SKActivityIndicatorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKActivityIndicatorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A8EEA0A0D184B7400E158C5893B97B4 /* SKActivityIndicatorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SKActivityIndicatorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4DB57D7FE39CAE699DD3FC055E3B0E57 /* Pods-SKActivityIndicatorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKActivityIndicatorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5E2B0F240CDB550C3E0542A1D52DEBA9 /* Pods-SKActivityIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKActivityIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		651F340541BC36103DF9F71E29902766 /* Pods-SKActivityIndicatorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKActivityIndicatorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7DC9DF7462E10DA8BC5805E6EC8BEBCB /* SKActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKActivityIndicatorView.framework; path = SKActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC9DF7462E10DA8BC5805E6EC8BEBCB /* SKActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8159F30D42F524FDFD8A39699C30934F /* SKActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKActivityIndicatorViewStyle.swift; path = SKActivityIndicatorView/Classes/SKActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
 		859E8C9F79CB348032AE3E1BB9F1A449 /* Pods-SKActivityIndicatorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKActivityIndicatorView_Example.modulemap"; sourceTree = "<group>"; };
 		8AF1CD306717610D79ACA70DA2945006 /* SKActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF80902879957B1D13C3EAC202B3DC5 /* SKActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
 		A58CB161187B44F47288E837D49BF190 /* SKActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
-		A9EF7718CC4AAFB51A1B5B67478ED579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A9EF7718CC4AAFB51A1B5B67478ED579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C0C5628E42F216334C6F0207AE0081A1 /* SKActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 		C957CAF8A6F0F2E509FDC30DC21711FA /* Pods-SKActivityIndicatorView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKActivityIndicatorView_Example-umbrella.h"; sourceTree = "<group>"; };
 		CE012B15F74A85563D1AE4406C5644AF /* Pods-SKActivityIndicatorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKActivityIndicatorView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -257,6 +257,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = E08111B95BCEFD34280208AD1735234F /* Products */;
@@ -333,7 +334,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView.modulemap";
 				PRODUCT_MODULE_NAME = SKActivityIndicatorView;
@@ -365,7 +366,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SKActivityIndicatorView/SKActivityIndicatorView.modulemap";
 				PRODUCT_MODULE_NAME = SKActivityIndicatorView;
@@ -396,7 +397,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Pods-SKActivityIndicatorView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Pods-SKActivityIndicatorView_Example.modulemap";
@@ -430,7 +431,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Pods-SKActivityIndicatorView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SKActivityIndicatorView_Example/Pods-SKActivityIndicatorView_Example.modulemap";
@@ -495,13 +496,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -558,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
