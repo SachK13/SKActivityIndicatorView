@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class SKActivityIndicator: NSObject {
+public class SKActivityIndicator {
     // MARK: - Custom Properties
 
     var window: UIWindow?
@@ -35,14 +35,7 @@ public class SKActivityIndicator: NSObject {
 
     // MARK: - Initialization
 
-    private override init() {
-        super.init()
-        let delegate: UIApplicationDelegate = UIApplication.shared.delegate!
-        if let windowObj = delegate.window {
-            window = windowObj
-        } else {
-            window = UIApplication.shared.keyWindow!
-        }
+    private init() {
         statusLabel = nil
         backgroundView = nil
         spinnerContainerView = nil
@@ -100,6 +93,20 @@ public class SKActivityIndicator: NSObject {
     // MARK: - Configure Activity Indicator
 
     fileprivate func configureActivityIndicator(withStatusMessage message: String, isUserInteractionEnabled userInteractionStatus: Bool) {
+        
+        if #available(iOS 13.0, *) {
+            if let windowObj = getKeyWindow() {
+                window = windowObj
+            }
+        } else {
+            // Fallback on earlier versions
+            if let delegate: UIApplicationDelegate = UIApplication.shared.delegate {
+                if let windowObj = delegate.window {
+                    window = windowObj
+                }
+            }
+        }
+        
         /// Setup Activity Indicator View
         if activityIndicatorView == nil {
             activityIndicatorView = UIToolbar(frame: CGRect.zero)
@@ -272,8 +279,7 @@ public class SKActivityIndicator: NSObject {
     // MARK: - Keyboard Notifications
 
     fileprivate func registerForKeyboardNotificatoins() {
-        NotificationCenter.default.addObserver(self, selector: #selector(configureActivityIndicatorPosition), name: UIApplication.didChangeStatusBarOrientationNotification, object: nil)
-
+        NotificationCenter.default.addObserver(self, selector: #selector(configureActivityIndicatorPosition), name: UIDevice.orientationDidChangeNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(configureActivityIndicatorPosition), name: UIResponder.keyboardWillHideNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(configureActivityIndicatorPosition), name: UIResponder.keyboardDidHideNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(configureActivityIndicatorPosition), name: UIResponder.keyboardWillShowNotification, object: nil)
