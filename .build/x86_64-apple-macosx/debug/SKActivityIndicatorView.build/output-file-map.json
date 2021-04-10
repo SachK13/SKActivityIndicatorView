@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorView.build/master.swiftdeps"
+  },
+  "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/Sources/SKActivityIndicatorView/SKActivityIndicatorView.swift": {
+    "dependencies": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorView.build/SKActivityIndicatorView.d",
+    "object": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorView.build/SKActivityIndicatorView.swift.o",
+    "swiftmodule": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorView.build/SKActivityIndicatorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorView.build/SKActivityIndicatorView.swiftdeps"
+  }
+}

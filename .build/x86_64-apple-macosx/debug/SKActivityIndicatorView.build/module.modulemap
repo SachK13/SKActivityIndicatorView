@@ -1,0 +1,4 @@
+module SKActivityIndicatorView {
+    header "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorView.build/SKActivityIndicatorView-Swift.h"
+    requires objc
+}

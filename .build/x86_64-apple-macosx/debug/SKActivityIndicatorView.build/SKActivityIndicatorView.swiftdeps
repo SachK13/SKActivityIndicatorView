@@ -1,0 +1,22 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SKActivityIndicatorView"
+provides-nominal:
+- "23SKActivityIndicatorViewAAV"
+provides-member:
+- ["23SKActivityIndicatorViewAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "SKActivityIndicatorView"
+- "StringLiteralType"
+depends-member:
+- ["23SKActivityIndicatorViewAAV", "init"]
+- ["23SKActivityIndicatorViewAAV", "text"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "23SKActivityIndicatorViewAAV"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorView.build/module.modulemap"
+interface-hash: "d20c5560bf87aede00dd65ca1baa55ba"

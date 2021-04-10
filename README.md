@@ -49,7 +49,18 @@ Carthage is a decentralized dependency manager that builds your dependencies and
 ```
 github "SachK13/SKActivityIndicatorView" ~> 1.0.0
 ```
+### Swift Package Manager
 
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but SKActivityIndicatorView does support its use on supported platforms.
+
+Once you have your Swift package set up, adding SKActivityIndicatorView as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/SachK13/SKActivityIndicatorView.git", .upToNextMajor(from: “1.2.1”))
+]
+Or Add with Branch -> master instead of version
+```
 ### Manual
 You can directly add the `SKActivityIndicatorView.swift` and `SKActivityIndicatorViewStyle.swift` source files into your Xcode project.
 
