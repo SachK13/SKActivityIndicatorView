@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "b4a592a7ea4baf2fce9ebcdfcfdbd4a5"
+build_time: [1616012022, 645456000]
+inputs:
+  "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/Tests/SKActivityIndicatorViewTests/SKActivityIndicatorViewTests.swift": [1615147259, 531115449]
+  "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/Tests/SKActivityIndicatorViewTests/XCTestManifests.swift": [1615147259, 531286877]

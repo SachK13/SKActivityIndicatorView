@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/master.swiftdeps"
+  },
+  "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/Tests/SKActivityIndicatorViewTests/SKActivityIndicatorViewTests.swift": {
+    "dependencies": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/SKActivityIndicatorViewTests.d",
+    "object": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/SKActivityIndicatorViewTests.swift.o",
+    "swiftmodule": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/SKActivityIndicatorViewTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/SKActivityIndicatorViewTests.swiftdeps"
+  },
+  "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/Tests/SKActivityIndicatorViewTests/XCTestManifests.swift": {
+    "dependencies": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/XCTestManifests.d",
+    "object": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/somu/Somendra Yadav/Swift Packages/SKActivityIndicatorView/.build/x86_64-apple-macosx/debug/SKActivityIndicatorViewTests.build/XCTestManifests.swiftdeps"
+  }
+}

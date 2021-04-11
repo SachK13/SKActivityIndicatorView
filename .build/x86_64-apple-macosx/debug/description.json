@@ -1,0 +1,19 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/somu\/Somendra Yadav\/Swift Packages\/SKActivityIndicatorView\/.build\/x86_64-apple-macosx\/debug\/SKActivityIndicatorViewPackageTests.xctest\/Contents\/MacOS\/SKActivityIndicatorViewPackageTests",
+      "packageName" : "SKActivityIndicatorView",
+      "productName" : "SKActivityIndicatorViewPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.SKActivityIndicatorView-debug.module" : "SKActivityIndicatorView",
+    "C.SKActivityIndicatorViewTests-debug.module" : "SKActivityIndicatorViewTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}
